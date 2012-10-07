@@ -1,0 +1,48 @@
+* {
+	font-family: Arial;
+	font-size: 8pt;
+}
+
+#error {
+	color: red;
+	font-weight: bold;
+}
+
+.sessions, .windows, .tabs {
+	list-style-type: none;
+	padding: 0px;
+}
+
+
+.sessions li, .windows li, .tabs li {
+	
+}
+
+.sessions li {
+	font-size: 150%;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+.windows li {
+	font-size: 120%;
+	margin-bottom: 0px;
+}
+
+.tabs li {
+	font-size: 100%;
+	margin-bottom: 2px;
+	margin-top: 2px;
+}
+
+
+.parcol.first {
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+}
+
+.parcol.last {
+	-webkit-border-top-right-radius: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+	margin-right: 0px;
+}
